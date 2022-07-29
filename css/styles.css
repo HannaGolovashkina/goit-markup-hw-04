@@ -496,7 +496,7 @@ section {
   /* justify-content: space-between; */
 }
 
-.footer-cont {
+.footer-cont:not(:last-child) {
   margin-right: 70px;
 }
 .footer-hed {
