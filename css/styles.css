@@ -431,12 +431,12 @@ section {
 
 .client-logo-link:hover .client-logo-icon {
   fill: #2196f3;
-  border: #2196f3;
+  border-color: #2196f3;
 }
 
 .client-logo-link:focus .client-logo-icon {
   fill: #2196f3;
-  border: #2196f3;
+  border-color: #2196f3;
 }
 
 /* -----footer----- */
