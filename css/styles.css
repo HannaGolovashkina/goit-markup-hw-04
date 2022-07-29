@@ -164,6 +164,12 @@ section {
 .site-mailtel-link:focus {
   color: var(--axent-color);
 }
+
+.contact-icon {
+  stroke: currentColor;
+  fill: none;
+  margin-right: 10px;
+}
 /*----- hero------ */
 /* .hero {
   background: var(--background);
