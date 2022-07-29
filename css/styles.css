@@ -235,6 +235,7 @@ section {
   box-sizing: border-box;
   color: var(--title-color);
   background: var(--axent-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .hero-btn:hover,
@@ -424,12 +425,12 @@ section {
 
 .client-logo-link:hover .client-logo-icon {
   fill: #2196f3;
-  border-color: currentColor;
+  border: #2196f3;
 }
 
 .client-logo-link:focus .client-logo-icon {
   fill: #2196f3;
-  border-color: currentColor;
+  border: #2196f3;
 }
 
 /* -----footer----- */
@@ -440,7 +441,9 @@ section {
   padding-bottom: 60px;
   background: var(--background);
 }
-
+/* .footer .footer-cont {
+  display: flex;
+} */
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -470,16 +473,22 @@ section {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.addres-list-footer {
+  /* width: 231px; */
+}
 .addres-footer:not(:last-child) {
   /* display: block; */
   margin-bottom: 9px;
   /* gap: 9px; */
 }
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+  /* justify-content: space-between; */
+}
 
 .footer-cont {
-  /* display: flex;
-  align-items: baseline; */
+  margin-right: 70px;
 }
 .footer-hed {
   font-weight: 700;
@@ -494,6 +503,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 10px;
+  /* width: 206px; */
 }
 .footer-soc-link {
   width: 44px;
@@ -563,6 +573,7 @@ section {
   /* margin-bottom: 50px; */
   color: var(--first-btn-color);
   background-color: var(--background-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .btn-link:hover,
@@ -583,6 +594,7 @@ section {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-wrap {
