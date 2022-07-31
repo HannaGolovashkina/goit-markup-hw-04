@@ -168,8 +168,7 @@ section {
 }
 
 .contact-icon {
-  stroke: currentColor;
-  fill: none;
+  fill: currentColor;
   margin-right: 10px;
 }
 /*----- hero------ */
@@ -409,6 +408,10 @@ section {
   justify-content: center;
   gap: 30px;
 }
+.client-icon {
+  display: flex;
+  justify-content: center;
+}
 
 .client-logo-icon {
   fill: #afb1b8;
@@ -525,7 +528,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 }
 
 .footer-soc-link:hover {
@@ -584,6 +587,7 @@ section {
   padding-right: 20px;
   color: var(--first-btn-color);
   background-color: var(--background-color);
+  border-color: transparent;
 }
 
 .btn-link:hover,
@@ -605,15 +609,17 @@ section {
   border: 1px solid #eeeeee;
   border-top: 0;
 }
-.portfolio-div:hover,
-.portfolio-div:focus {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
+
 .portfolio-wrap {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: center; */
   gap: 30px;
+}
+
+.img-portfolio:hover,
+.img-portfolio:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio {
@@ -626,6 +632,7 @@ section {
   color: var(--first-title-color);
 }
 .img-portfolio {
+  display: block;
   margin-bottom: 20px;
 }
 
